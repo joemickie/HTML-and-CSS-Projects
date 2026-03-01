@@ -31,9 +31,9 @@
     <section id="gallery">
         <h2>Food Gallery</h2>
 
-        <img src="images/food1.jpg" alt="Delicious food" width="200">
-        <img src="images/food2.jpg" alt="Tasty meal" width="200">
-        <img src="images/food3.jpg" alt="Favorite dish" width="200">
+        <img src="images/food1.jpg" alt="Delicious food" width="200" class="gallery-img">
+        <img src="images/food2.jpg" alt="Tasty meal" width="200" class="gallery-img">
+        <img src="images/food3.jpg" alt="Favorite dish" width="200" class="gallery-img">
     </section>
 
     <hr>
@@ -80,5 +80,13 @@
         <p>&copy; 2026 Food Lovers Page</p>
     </footer>
 
+    <!-- Lightbox Modal -->
+    <div id="lightbox" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); text-align:center;">
+        <span id="closeBtn" style="color:white; font-size:40px; position:absolute; top:20px; right:40px; cursor:pointer;">&times;</span>
+        <img id="lightboxImg" style="margin-top:100px; max-width:80%; max-height:80%;">
+    </div>
+
 </body>
+
+<script src="JS/one_page_website.js"></script>
 </html>
